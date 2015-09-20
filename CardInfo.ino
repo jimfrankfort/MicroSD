@@ -33,7 +33,7 @@ SdFile root;
 // Arduino Ethernet shield: pin 4
 // Adafruit SD shields and modules: pin 10
 // Sparkfun SD shield: pin 8
-const int chipSelect = 10;   // changed in branch 1 test 
+const int chipSelect = 27;   // changed in branch 1 test, changed to 27 in branch 2 test
 
 void setup()
 {
