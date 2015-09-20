@@ -1,5 +1,7 @@
 /*
-  SD card test 
+ 
+branch test
+ SD card test 
    
  This example shows how use the utility libraries on which the'
  SD library is based in order to get info about your SD card.
@@ -31,7 +33,7 @@ SdFile root;
 // Arduino Ethernet shield: pin 4
 // Adafruit SD shields and modules: pin 10
 // Sparkfun SD shield: pin 8
-const int chipSelect = 53;    
+const int chipSelect = 10;   // changed in branch 1 test 
 
 void setup()
 {
